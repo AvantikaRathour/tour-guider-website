@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li class="active"><a href="#"></a>Tours</li>
+                <li class="active"><a href="#"></a>Explore</li>
+                <li class="active"><a href="#"></a>About</li>
+                <li class="active"><a href="#"></a>Contact</li>
+
+            </ul>
+            <img src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png" class="menu-btn" alt="">
+
+
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore the Colourful World</h2>
+                <div class="line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </header>
+        <!-- events... -->
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <img src="images\mounteverest.jpg" class="img1" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Join adventurous Mt Everest Expedition & Peak Climbing with experienced Sherpas and climbers. Grab
+                    Exclusive offers on Everest Expedition South Col(Nepal side ).......</p>
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col2">
+                    <img src="images\trek.jpg" class="img2" alt="">
+                    <h4>Walking Holidays</h4>
+                    <p>Take the trip of lifetime with our expert climbing trekking and hiking tours Plan your next exploring journey with us.Book thus with your family and friends</p>
+                    <a href="#" class="ctn">Learn more</a>
+                </div>
+            </div>
+        </section>
+        <section class="explore">
+            <div class="explore-content">
+                <h1>EXPLORE THE WORLD</h1>
+                <div class="line"></div>
+                <pre>
+             Explore the world in your way 
+             Create memories that you wont't forget 
+             You only live once,so don't waste your time
+             Take a risk, go outside
+             Travel till you can't no more
+             In your way,you will find your naked soul</pre>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="content-col">
+                    <h1>UPCOMING TOURS & DESTINATION</h1>
+                    <div class="line"></div>
+                    <p>Book your perfect holiday packages in India from a wide range of customised vacation packages and explore all exciting tourist destinations in India.Browse through India Tour Packages by Destinations and explore most popular destination in India. Book perfect holiday packages with best deal & plan.. </p>
+                    <a href="#" class="ctn">Learn more</a>
+
+                </div>
+                <div class="image-col">
+                    <div class="image-gallery">
+                        <img src="images\boat.png" alt="">
+                        <img src="images\mountiain.png" alt="">
+
+                        <img src="images\rocky.png" alt="">
+                        <img src="images\bridge.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+  <section class="footer">
+    <p>123 Fifth Avenue ,NY 10160, New York ,USA | Phone : 7947-2321-2134 | Email : contact@gmail.com</p>
+    <p>Copyright &copy 2022 Outdoor Adventure</p>
+  </section>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+            menuBtn.addEventListener('click', () => {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+
+</html>
